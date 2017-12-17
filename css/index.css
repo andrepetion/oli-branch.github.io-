@@ -4,16 +4,38 @@
  *     12/15/2017	 *
  * * * * * * * * * * */
  
+.jumbotron
+{
+	margin-bottom: 0;
+}
+
+.header-links
+{
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.header-links > a
+{
+	padding-right: 30px;
+}
+
 .dropdown-div
 {
 	position: absolute;
 	right: 10px;
-	top: 30px;
+	top: 45px;
 }
 
 .drop-button
 {
+	background-color: transparent;
     cursor: pointer;
+	position: fixed;
+	padding-left: 0;
+	right: 10px;
+	top: 30px;
 }
 
 .dropdown-content 
@@ -44,6 +66,12 @@
 .dropdown-links:hover
 {
 	background-color: #FFFFFF;
+}
+
+.center-content
+{
+	margin-left: 10px;
+	margin-right: 10px;
 }
  
  footer
