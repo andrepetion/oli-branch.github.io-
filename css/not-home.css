@@ -1,0 +1,18 @@
+/* * * * * * * * * * * 
+ * 	SpyderByte Inc.	 *
+ *     home.css      *
+ *     12/15/2017	 *
+ * * * * * * * * * * */
+ 
+.header-img > img
+{
+	max-height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.header-img
+{
+	height: 200px;
+}
