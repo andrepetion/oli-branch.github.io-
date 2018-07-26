@@ -7,6 +7,7 @@
 .jumbotron
 {
 	margin-bottom: 0;
+	margin-left: 10%;
 }
 
 .header-links
@@ -76,4 +77,6 @@
  footer
  {
 	text-align: center;
+	background-color: #eeeeee;
+	margin-left: 10%;
  }
