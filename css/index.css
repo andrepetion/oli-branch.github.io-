@@ -6,8 +6,10 @@
  
 .jumbotron
 {
-	margin-bottom: 0;
+	position: absolute;
 	margin-left: 10%;
+	height: 100%;
+	width: 100%;
 }
 
 .header-links
@@ -74,9 +76,7 @@
 	min-height: 300px;
 }
  
- footer
+ .footer
  {
 	text-align: center;
-	background-color: #eeeeee;
-	margin-left: 10%;
  }
