@@ -7,8 +7,6 @@
 .jumbotron
 {
 	position: absolute;
-	margin-left: 10%;
-	margin-right: -10%;
 	height: 100%;
 	width: 100%;
 }
