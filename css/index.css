@@ -1,7 +1,7 @@
 /* * * * * * * * * * * 
- * 	Ronnie King		 *
+ * 	SpyderByte Inc.	 *
  *    index.css      *
- *     08/30/2019	 *
+ *     12/15/2017	 *
  * * * * * * * * * * */
  
 .jumbotron
@@ -9,54 +9,70 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-color: white;
 }
 
-.page-links
+.header-links
 {
 	text-align: center;
 	margin-bottom: 20px;
 	padding-top: 10px;
 }
 
-.page-links > a
+.header-links > a
 {
 	padding-right: 20px;
 }
 
-.main-content
+.dropdown-div
+{
+	position: absolute;
+	right: 10px;
+	top: 45px;
+}
+
+.drop-button
+{
+	background-color: transparent;
+    cursor: pointer;
+	position: fixed;
+	padding-left: 0;
+	right: 10px;
+	top: 30px;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.show 
+{
+	display: block;
+}
+
+.dropdown-links
+{
+	background-color: #E9E9E9;
+	display: block;
+    color: black;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.dropdown-links:hover
+{
+	background-color: #FFFFFF;
+}
+
+.center-content
 {
 	margin-left: 20px;
 	margin-right: 20px;
 	min-height: 300px;
-	text-align:center;
-	color: 
-} 
-
-.header-img
-{
-	text-align: center;  
-}
-
-.access-site
-{
-	text-align: center;
-	padding-top: 20px;
-}
-
-.access-buttons
-{
-	background-color: #999999;
-	color: #ffffff;
-	border-color: #ffffff;
-	border-radius: 10px;
-	padding: 15px;
-}
-
-.access-site > div
-{
-	display: inline-block;
-	width: 25%;	
 }
  
  .footer
