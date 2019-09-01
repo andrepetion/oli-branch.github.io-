@@ -1,5 +1,5 @@
 /* * * * * * * * * * * 
- * 	SpyderByte Inc.	 *
+ * 	Ronnie King		 *
  *    index.css      *
  *     12/15/2017	 *
  * * * * * * * * * * */
@@ -11,14 +11,19 @@
 	width: 100%;
 }
 
-.header-links
+.header-img
+{
+	text-align: center;  
+}
+
+.page-links
 {
 	text-align: center;
 	margin-bottom: 20px;
 	padding-top: 10px;
 }
 
-.header-links > a
+.page-links > a
 {
 	padding-right: 20px;
 }
@@ -49,26 +54,7 @@
     z-index: 1;
 }
 
-.show 
-{
-	display: block;
-}
-
-.dropdown-links
-{
-	background-color: #E9E9E9;
-	display: block;
-    color: black;
-	padding: 5px;
-	text-decoration: none;
-}
-
-.dropdown-links:hover
-{
-	background-color: #FFFFFF;
-}
-
-.center-content
+.main-content
 {
 	margin-left: 20px;
 	margin-right: 20px;
