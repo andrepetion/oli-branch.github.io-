@@ -8,11 +8,11 @@
 {
 	max-height: 100px;
 	position: absolute;
-	left: 0;
+	left: 25%;
 	top: 0;
 }
 
 .header-img
 {
-	height: 200px;
+	height: 80px;
 }
