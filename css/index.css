@@ -9,6 +9,7 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	background-color: white;
 }
 
 .header-img
@@ -26,32 +27,6 @@
 .page-links > a
 {
 	padding-right: 20px;
-}
-
-.dropdown-div
-{
-	position: absolute;
-	right: 10px;
-	top: 45px;
-}
-
-.drop-button
-{
-	background-color: transparent;
-    cursor: pointer;
-	position: fixed;
-	padding-left: 0;
-	right: 10px;
-	top: 30px;
-}
-
-.dropdown-content 
-{
-    display: none;
-    position: relative;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
 }
 
 .main-content
