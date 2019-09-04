@@ -12,9 +12,14 @@
 	background-color: white;
 }
 
+.header-img-container
+{
+	text-align: center;
+}
+
 .header-img
 {
-	text-align: center;  
+	width: 60%;	
 }
 
 .access-site-btns
